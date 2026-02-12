@@ -1,0 +1,107 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+jspm_packages/
+.pnp/
+.pnp.js
+
+# =========================
+# Build Output
+# =========================
+dist/
+build/
+out/
+.next/
+.expo/
+.expo-shared/
+web-build/
+coverage/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+# =========================
+# JetBrains IDEs
+# =========================
+.idea/
+*.iml
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# React Native
+# =========================
+android/app/build/
+android/.gradle/
+android/local.properties
+ios/build/
+ios/Pods/
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+
+# =========================
+# Metro Bundler
+# =========================
+.metro-health-check*
+
+# =========================
+# Testing
+# =========================
+jest-cache/
+coverage/
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+.cache/
+
+# =========================
+# Package Managers
+# =========================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =========================
+# MongoDB
+# =========================
+mongodb-data/
