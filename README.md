@@ -74,5 +74,12 @@ frontend/
 - **Backend:** Node.js, Express.js, MongoDB, Mongoose
 - **Other:** Upstash (rate limiting)
 
+## Screenshots
+![Home Page](./screenshots/HomePage.PNG)
+![Create Note](./screenshots/CreatePage.PNG)
+![Note Detail Page](./screenshots/NoteDetailPage.PNG)
+![Notes Not Found](./screenshots/NotesNotFound.PNG)
+
+
 ## License
 MIT

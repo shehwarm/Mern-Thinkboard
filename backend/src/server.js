@@ -14,10 +14,16 @@ const __dirname = path.resolve();
 
 //middleware
 if (process.env.NODE_ENV === "production") {
-app.use(cors({
-    origin:"http://localhost:5173", // Allow requests from this origin
-})); // Enable CORS for all routes
-} 
+    // production CORS settings
+    app.use(cors({
+        origin: "http://your-production-frontend.com"
+    }));
+} else {
+    // development: allow local frontend
+    app.use(cors({
+        origin: "http://localhost:5173"
+    }));
+}
 
 app.use(express.json()); // this middleware is used to parse the JSON bodies: req.body
 
