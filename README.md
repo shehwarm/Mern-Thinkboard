@@ -75,10 +75,10 @@ frontend/
 - **Other:** Upstash (rate limiting)
 
 ## Screenshots
-![Home Page](./screenshots/HomePage.PNG)
-![Create Note](./screenshots/CreatePage.PNG)
-![Note Detail Page](./screenshots/NoteDetailPage.PNG)
-![Notes Not Found](./screenshots/NotesNotFound.PNG)
+![Home Page](./Screenshots/HomePage.PNG)
+![Create Note](./Screenshots/CreatePage.PNG)
+![Note Detail Page](./Screenshots/NoteDetailPage.PNG)
+![Notes Not Found](./Screenshots/NotesNotFound.PNG)
 
 
 ## License
